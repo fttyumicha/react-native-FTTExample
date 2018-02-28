@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface FTTExample : NSObject
+#import <React/RCTBridgeModule.h>
+#import <React/RCTLog.h>
+@interface FTTExample : NSObject<RCTBridgeModule>
 
 @end
